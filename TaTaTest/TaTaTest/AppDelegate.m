@@ -22,7 +22,6 @@
     NSLog(@"Test3");
     NSLog(@"Test4");
     NSLog(@"Test5");
->>>>>>> master
     return YES;
 }
 
