@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF1F0571C916B37005F8BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F0561C916B37005F8BAE /* main.m */; };
+		FAF1F05A1C916B37005F8BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F0591C916B37005F8BAE /* AppDelegate.m */; };
+		FAF1F05D1C916B37005F8BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F05C1C916B37005F8BAE /* ViewController.m */; };
+		FAF1F0601C916B37005F8BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1F05E1C916B37005F8BAE /* Main.storyboard */; };
+		FAF1F0621C916B37005F8BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF1F0611C916B37005F8BAE /* Assets.xcassets */; };
+		FAF1F0651C916B37005F8BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1F0631C916B37005F8BAE /* LaunchScreen.storyboard */; };
+		FAF1F0701C916B37005F8BAE /* TaTaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F06F1C916B37005F8BAE /* TaTaTestTests.m */; };
+		FAF1F07B1C916B37005F8BAE /* TaTaTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1F07A1C916B37005F8BAE /* TaTaTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF1F06C1C916B37005F8BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF1F04A1C916B37005F8BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF1F0511C916B37005F8BAE;
+			remoteInfo = TaTaTest;
+		};
+		FAF1F0771C916B37005F8BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF1F04A1C916B37005F8BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF1F0511C916B37005F8BAE;
+			remoteInfo = TaTaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF1F0521C916B37005F8BAE /* TaTaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaTaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1F0561C916B37005F8BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF1F0581C916B37005F8BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF1F0591C916B37005F8BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF1F05B1C916B37005F8BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAF1F05C1C916B37005F8BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAF1F05F1C916B37005F8BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF1F0611C916B37005F8BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF1F0641C916B37005F8BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF1F0661C916B37005F8BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF1F06B1C916B37005F8BAE /* TaTaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaTaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1F06F1C916B37005F8BAE /* TaTaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaTaTestTests.m; sourceTree = "<group>"; };
+		FAF1F0711C916B37005F8BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF1F0761C916B37005F8BAE /* TaTaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaTaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1F07A1C916B37005F8BAE /* TaTaTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaTaTestUITests.m; sourceTree = "<group>"; };
+		FAF1F07C1C916B37005F8BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF1F04F1C916B37005F8BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1F0681C916B37005F8BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1F0731C916B37005F8BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF1F0491C916B37005F8BAE = {
+			isa = PBXGroup;
+			children = (
+				FAF1F0541C916B37005F8BAE /* TaTaTest */,
+				FAF1F06E1C916B37005F8BAE /* TaTaTestTests */,
+				FAF1F0791C916B37005F8BAE /* TaTaTestUITests */,
+				FAF1F0531C916B37005F8BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF1F0531C916B37005F8BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1F0521C916B37005F8BAE /* TaTaTest.app */,
+				FAF1F06B1C916B37005F8BAE /* TaTaTestTests.xctest */,
+				FAF1F0761C916B37005F8BAE /* TaTaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF1F0541C916B37005F8BAE /* TaTaTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1F0581C916B37005F8BAE /* AppDelegate.h */,
+				FAF1F0591C916B37005F8BAE /* AppDelegate.m */,
+				FAF1F05B1C916B37005F8BAE /* ViewController.h */,
+				FAF1F05C1C916B37005F8BAE /* ViewController.m */,
+				FAF1F05E1C916B37005F8BAE /* Main.storyboard */,
+				FAF1F0611C916B37005F8BAE /* Assets.xcassets */,
+				FAF1F0631C916B37005F8BAE /* LaunchScreen.storyboard */,
+				FAF1F0661C916B37005F8BAE /* Info.plist */,
+				FAF1F0551C916B37005F8BAE /* Supporting Files */,
+			);
+			path = TaTaTest;
+			sourceTree = "<group>";
+		};
+		FAF1F0551C916B37005F8BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1F0561C916B37005F8BAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF1F06E1C916B37005F8BAE /* TaTaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1F06F1C916B37005F8BAE /* TaTaTestTests.m */,
+				FAF1F0711C916B37005F8BAE /* Info.plist */,
+			);
+			path = TaTaTestTests;
+			sourceTree = "<group>";
+		};
+		FAF1F0791C916B37005F8BAE /* TaTaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1F07A1C916B37005F8BAE /* TaTaTestUITests.m */,
+				FAF1F07C1C916B37005F8BAE /* Info.plist */,
+			);
+			path = TaTaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF1F0511C916B37005F8BAE /* TaTaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1F07F1C916B37005F8BAE /* Build configuration list for PBXNativeTarget "TaTaTest" */;
+			buildPhases = (
+				FAF1F04E1C916B37005F8BAE /* Sources */,
+				FAF1F04F1C916B37005F8BAE /* Frameworks */,
+				FAF1F0501C916B37005F8BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaTaTest;
+			productName = TaTaTest;
+			productReference = FAF1F0521C916B37005F8BAE /* TaTaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF1F06A1C916B37005F8BAE /* TaTaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1F0821C916B37005F8BAE /* Build configuration list for PBXNativeTarget "TaTaTestTests" */;
+			buildPhases = (
+				FAF1F0671C916B37005F8BAE /* Sources */,
+				FAF1F0681C916B37005F8BAE /* Frameworks */,
+				FAF1F0691C916B37005F8BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF1F06D1C916B37005F8BAE /* PBXTargetDependency */,
+			);
+			name = TaTaTestTests;
+			productName = TaTaTestTests;
+			productReference = FAF1F06B1C916B37005F8BAE /* TaTaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF1F0751C916B37005F8BAE /* TaTaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1F0851C916B37005F8BAE /* Build configuration list for PBXNativeTarget "TaTaTestUITests" */;
+			buildPhases = (
+				FAF1F0721C916B37005F8BAE /* Sources */,
+				FAF1F0731C916B37005F8BAE /* Frameworks */,
+				FAF1F0741C916B37005F8BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF1F0781C916B37005F8BAE /* PBXTargetDependency */,
+			);
+			name = TaTaTestUITests;
+			productName = TaTaTestUITests;
+			productReference = FAF1F0761C916B37005F8BAE /* TaTaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF1F04A1C916B37005F8BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bonnie;
+				TargetAttributes = {
+					FAF1F0511C916B37005F8BAE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FAF1F06A1C916B37005F8BAE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FAF1F0511C916B37005F8BAE;
+					};
+					FAF1F0751C916B37005F8BAE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FAF1F0511C916B37005F8BAE;
+					};
+				};
+			};
+			buildConfigurationList = FAF1F04D1C916B37005F8BAE /* Build configuration list for PBXProject "TaTaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF1F0491C916B37005F8BAE;
+			productRefGroup = FAF1F0531C916B37005F8BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF1F0511C916B37005F8BAE /* TaTaTest */,
+				FAF1F06A1C916B37005F8BAE /* TaTaTestTests */,
+				FAF1F0751C916B37005F8BAE /* TaTaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF1F0501C916B37005F8BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1F0651C916B37005F8BAE /* LaunchScreen.storyboard in Resources */,
+				FAF1F0621C916B37005F8BAE /* Assets.xcassets in Resources */,
+				FAF1F0601C916B37005F8BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1F0691C916B37005F8BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1F0741C916B37005F8BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF1F04E1C916B37005F8BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1F05D1C916B37005F8BAE /* ViewController.m in Sources */,
+				FAF1F05A1C916B37005F8BAE /* AppDelegate.m in Sources */,
+				FAF1F0571C916B37005F8BAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1F0671C916B37005F8BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1F0701C916B37005F8BAE /* TaTaTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1F0721C916B37005F8BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1F07B1C916B37005F8BAE /* TaTaTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF1F06D1C916B37005F8BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF1F0511C916B37005F8BAE /* TaTaTest */;
+			targetProxy = FAF1F06C1C916B37005F8BAE /* PBXContainerItemProxy */;
+		};
+		FAF1F0781C916B37005F8BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF1F0511C916B37005F8BAE /* TaTaTest */;
+			targetProxy = FAF1F0771C916B37005F8BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF1F05E1C916B37005F8BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF1F05F1C916B37005F8BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF1F0631C916B37005F8BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF1F0641C916B37005F8BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF1F07D1C916B37005F8BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF1F07E1C916B37005F8BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF1F0801C916B37005F8BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaTaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BBP.TaTaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF1F0811C916B37005F8BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaTaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BBP.TaTaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF1F0831C916B37005F8BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaTaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BBP.TaTaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaTaTest.app/TaTaTest";
+			};
+			name = Debug;
+		};
+		FAF1F0841C916B37005F8BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaTaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BBP.TaTaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaTaTest.app/TaTaTest";
+			};
+			name = Release;
+		};
+		FAF1F0861C916B37005F8BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaTaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BBP.TaTaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaTaTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAF1F0871C916B37005F8BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaTaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BBP.TaTaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaTaTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF1F04D1C916B37005F8BAE /* Build configuration list for PBXProject "TaTaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1F07D1C916B37005F8BAE /* Debug */,
+				FAF1F07E1C916B37005F8BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF1F07F1C916B37005F8BAE /* Build configuration list for PBXNativeTarget "TaTaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1F0801C916B37005F8BAE /* Debug */,
+				FAF1F0811C916B37005F8BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF1F0821C916B37005F8BAE /* Build configuration list for PBXNativeTarget "TaTaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1F0831C916B37005F8BAE /* Debug */,
+				FAF1F0841C916B37005F8BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF1F0851C916B37005F8BAE /* Build configuration list for PBXNativeTarget "TaTaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1F0861C916B37005F8BAE /* Debug */,
+				FAF1F0871C916B37005F8BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF1F04A1C916B37005F8BAE /* Project object */;
+}
